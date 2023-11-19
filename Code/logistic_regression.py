@@ -48,7 +48,7 @@ def logistic_regression(X, y, learning_rate, batch_size=32, Niterations=1500, te
     - tuple: Best learning rate and corresponding beta.
     """
     # Split the data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=31)
 
     cost_values = []
     best_cost = float('inf')
